@@ -7,9 +7,17 @@
 #define PLASMA_PP_BEGIN_MAIN_NAMESPACE namespace plasma
 #define PLASMA_PP_BEGIN_DETAIL_NAMESPACE(name) namespace detail_ ## name
 
+
+#if defined(_MSC_VER) && (_MSC_VER <= 1800)
+#define PLASMA_PP_NOEXCEPT() throw()
+#else
+#define PLASNA_PP_NOEXCEPT() noexcept
+#endif
+
 PLASMA_PP_BEGIN_MAIN_NAMESPACE
 {
 	typedef unsigned int index_t;
+	typedef unsigned int size_t;
 
 	template<class,class T=void>struct sfinae_helper
 	{
