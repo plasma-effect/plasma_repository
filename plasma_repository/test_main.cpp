@@ -1,16 +1,12 @@
-#include<string>
+#include<plasma/string/basic_string.hpp>
+#include<plasma/string/operator_add.hpp>
 #include<iostream>
+//#include<plasma/string/details.hpp>
 
 int main()
 {
-	std::string str("123456");
-
-	auto a = str.begin();
-	auto b = str.end();
-	auto c = str.rbegin();
-	auto d = str.rend();
-	std::cout << reinterpret_cast<void const*>(&(*a)) << std::endl;
-	std::cout << reinterpret_cast<void const*>(&(*b)) << std::endl;
-	std::cout << reinterpret_cast<void const*>(&(*c)) << std::endl;
-	std::cout << reinterpret_cast<void const*>(&(*d)) << std::endl;
+	plasma::string::string str ="456";
+	plasma::string::string str2 = str + "123";
+	plasma::string::string str3 = "123" + str2;
+	std::cout << str2.str() << std::endl;
 }
