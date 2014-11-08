@@ -86,6 +86,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\plasma\algorithm.hpp" />
+    <ClInclude Include="..\plasma\algorithm\all_equal.hpp" />
+    <ClInclude Include="..\plasma\algorithm\rotate.hpp" />
     <ClInclude Include="..\plasma\algorithm\make_array.hpp" />
     <ClInclude Include="..\plasma\any_container\input_iterator.hpp" />
     <ClInclude Include="..\plasma\concept\concept_check.hpp" />
@@ -93,14 +95,18 @@
     <ClInclude Include="..\plasma\concept\operator\has_operator_intro_increment.hpp" />
     <ClInclude Include="..\plasma\concept\operator\has_operator_post_increment.hpp" />
     <ClInclude Include="..\plasma\exception.hpp" />
+    <ClInclude Include="..\plasma\extend_switch.hpp" />
+    <ClInclude Include="..\plasma\multi_array.hpp" />
     <ClInclude Include="..\plasma\static_regex\regex_t.hpp" />
     <ClInclude Include="..\plasma\static_string.hpp" />
     <ClInclude Include="..\plasma\static_string\operators.hpp" />
     <ClInclude Include="..\plasma\static_string\static_string.hpp" />
+    <ClInclude Include="..\plasma\string.hpp" />
     <ClInclude Include="..\plasma\string\basic_string.hpp" />
     <ClInclude Include="..\plasma\string\basic_string_iterator.hpp" />
     <ClInclude Include="..\plasma\string\details.hpp" />
     <ClInclude Include="..\plasma\string\operator_add.hpp" />
+    <ClInclude Include="..\plasma\taged_pair.hpp" />
     <ClInclude Include="..\plasma\type_traits.hpp" />
     <ClInclude Include="..\plasma\type_traits\index_tuple.hpp" />
     <ClInclude Include="..\plasma\type_traits\integral_constant_or.hpp" />

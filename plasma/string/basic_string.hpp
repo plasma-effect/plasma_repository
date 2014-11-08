@@ -119,6 +119,7 @@ PLASMA_PP_BEGIN_MAIN_NAMESPACE
 		};
 
 		typedef basic_string<char> string;
-
+		typedef basic_string<wchar_t> wstring;
+	
 	}
 }

@@ -5,3 +5,5 @@
 #pragma once
 
 #include<plasma/algorithm/make_array.hpp>
+#include<plasma/algorithm/all_equal.hpp>
+#include<plasma/algorithm/rotate.hpp>

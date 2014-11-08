@@ -10,8 +10,12 @@
 
 #if defined(_MSC_VER) && (_MSC_VER <= 1800)
 #define PLASMA_PP_NOEXCEPT() throw()
+#define PLASMA_CONSTEXPR_OR_NULL
+#define PLASMA_CONSTEXPR_OR_CONST const
 #else
 #define PLASNA_PP_NOEXCEPT() noexcept
+#define PLASMA_CONSTEXPR_OR_NULL constexpr
+#define PLASMA_CONSTEXPR_OR_CONST constexpr
 #endif
 
 PLASMA_PP_BEGIN_MAIN_NAMESPACE
