@@ -4,8 +4,10 @@
 
 #pragma once
 
+#ifndef BOOST_PP_VARIADICS
+#define BOOST_PP_VAROADICS
+#endif
 #include<plasma/utility.hpp>
-#define BOOST_PP_VARIADICS
 #include<boost/preprocessor.hpp>
 
 #define PLASMA_PP_EXTEND_SWITCH(switch_on,top,...)\

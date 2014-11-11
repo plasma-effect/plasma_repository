@@ -53,7 +53,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\boost_1_55_0_bin;C:\Users\DtYaZsK\Documents\GitHub\plasma_repository;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\boost_1_56_0;C:\Users\DtYaZsK\Documents\GitHub\plasma_repository;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -71,7 +71,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\boost_1_55_0_bin;C:\Users\DtYaZsK\Documents\GitHub\plasma_repository;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\boost_1_56_0;C:\Users\DtYaZsK\Documents\GitHub\plasma_repository;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -94,6 +94,7 @@
     <ClInclude Include="..\plasma\concept\concept_or.hpp" />
     <ClInclude Include="..\plasma\concept\operator\has_operator_intro_increment.hpp" />
     <ClInclude Include="..\plasma\concept\operator\has_operator_post_increment.hpp" />
+    <ClInclude Include="..\plasma\enum.hpp" />
     <ClInclude Include="..\plasma\exception.hpp" />
     <ClInclude Include="..\plasma\extend_switch.hpp" />
     <ClInclude Include="..\plasma\multi_array.hpp" />
